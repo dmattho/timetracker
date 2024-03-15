@@ -22,3 +22,10 @@ POST http://127.0.0.1:8000/authentication/logout
 Content-Type: application/json
 Authorization: token acf31075fe1291de461638c6d7f69f05437ad3d5
 
+###
+
+POST http://127.0.0.1:8000/timetracker/create_project
+Content-Type: application/json
+
+{}
+
